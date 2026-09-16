@@ -73,8 +73,7 @@ contactForm.addEventListener("submit", (event) => {
     }
 
     if (isValid) {
-        formSuccess.textContent = "Message submitted successfully!";
-        contactForm.reset();
+        contactForm.submit();
     }
 });
 
